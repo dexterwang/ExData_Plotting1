@@ -40,7 +40,7 @@ with(filtered_data, plot(DateTime,Sub_metering_1,type="l",xlab=NA,ylab="Energy s
 with(filtered_data,lines(DateTime,Sub_metering_2,type="l",col="red"))
 with(filtered_data,lines(DateTime,Sub_metering_3,type="l",col="blue"))
 
-legend("topright",pch=c(NA,NA,NA),lwd=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+legend("topright",pch=c(NA,NA,NA),lwd=1,col=c("black","red","blue"),cex=0.9,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 
 #save screen output as png
